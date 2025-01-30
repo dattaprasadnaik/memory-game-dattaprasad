@@ -1,7 +1,8 @@
 {
-  "name": "Scrim-s06j7vd",
-  "description": "https://scrimba.com/memory-game-in-react-c0a3odsk39/~05le",
+  "name": "memory-game-dattaprasad",
+  "description": "",
   "scripts": {
+    "postinstall": "chmod +x node_modules/.bin/*",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
@@ -10,10 +11,12 @@
   "dependencies": {
     "html-entities": "^2.5.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+     "vite": "^4.x" 
   },
   "devDependencies": {
     "@vitejs/plugin-react": "*",
     "vite": "^6.0.11"
   }
 }
+
